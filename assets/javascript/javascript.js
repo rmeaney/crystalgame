@@ -28,6 +28,7 @@ $(document).ready(function(){
 		//alert(num3);
 		var num4 = Math.floor(Math.random() * 11+1);
 		//alert(num4);
+		//why
 
 	var playerTotal = 0;
 	var wins = 0;
