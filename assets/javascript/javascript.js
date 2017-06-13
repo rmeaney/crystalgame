@@ -76,7 +76,7 @@ $(document).ready(function(){
 		if (playerTotal==randomNum){
 			wins++;
 			$('#endGameMessage').text('A Winner is You!!!')
-			$('#winsScore').text('Wins:' + wins);
+			$('#winsScore').text('Wins: ' + wins);
 			reset();
 		}else if (playerTotal > randomNum){
 			losses++;
