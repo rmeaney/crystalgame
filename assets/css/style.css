@@ -27,16 +27,17 @@ html, body{
 	margin:0 auto 0 auto;
 }
 #content{
-	height:auto;
-	width:auto;
+	height:511px;
+	width:780px;
 	background-color: green;
 	margin: 0 auto 0 auto;
-	padding-left:20px;
+	position:relative;
+	
 }
 header{
 	width:100%;
 	height:75px;
-	background-color:orange;
+	background-color:#692654;
 	color:white;
 }
 h1{
@@ -50,17 +51,27 @@ h1{
 .descriptorBox{
 	width:300px;
 	height:410px;
-	background-color:blue;
+	background-color:#692654;
 	float:left;
 	margin-top:40px;
+	border-radius:10px 0px 0px 10px;
 	
 
 }
-.descriptorText{
-	color:white;
-	width:75%;
+.descriptorContent{
+	width:90%;
+	height:85%;
+	background:white;
 	margin:0 auto 0 auto;
-	padding-top:15px;
+	border-radius:10px;
+
+}
+.descriptorText{
+	color:black;
+	width:90%;
+	margin:0 auto 0 auto;
+	padding-top:10px;
+	font-family:arial;
 
 
 }
@@ -77,12 +88,12 @@ h2{
 .rightSide{
 	float:left;
 	margin-top:40px;
-	margin-right:10%;
+	
 }
 .endGameBox{
 	width:470px;
 	height:100px;
-	background-color:yellow;
+	background-color:#38B1B3;
 }
 .goalBox{
 	width:470px;
@@ -99,8 +110,8 @@ h2{
 .crystalManagement{
 	width:100px;
 	height:100px;
-	background:violet;
-	border:5px solid purple;
+	background:white;
+	border:5px solid #692654;
 	float:left;
 	margin-right:10px;
 }
