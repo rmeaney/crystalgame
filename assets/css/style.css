@@ -1,0 +1,136 @@
+html, body{
+
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+
+}
+#mainScreen{
+	background-image:url('../images/floralPatternBlue-01.jpg');
+	background-repeat:repeat;
+	width:100%;
+	max-height:640px;
+	height:100%;
+
+	margin:0px;
+	padding:0px;
+	-webkit-box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
+	-moz-box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
+	box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
+	overflow-y: hidden;
+}
+#contentBorder{
+	background:white;
+	width:70%;
+	height:100%;
+	margin:0 auto 0 auto;
+}
+#content{
+	height:auto;
+	height:auto;
+	background-color: green;
+	margin: 0 auto 0 auto;
+}
+header{
+	width:100%;
+	height:75px;
+	background-color:orange;
+	color:white;
+}
+h1{
+	font-weight: bold;
+	font-family: Arial;
+	font-size:26pt;
+	margin:auto;
+	text-align:center;
+	line-height: 75px;
+}
+.descriptorBox{
+	width:400px;
+	height:410px;
+	background-color:blue;
+	float:left;
+	margin-top:40px;
+	
+
+}
+.descriptorText{
+	color:white;
+	width:75%;
+	margin:0 auto 0 auto;
+	padding-top:15px;
+
+
+}
+h2{
+	font-weight: bold;
+	font-family: Arial;
+	font-size:14pt;
+	margin:auto;
+	text-align:center;
+	color:white;
+	padding-top:20px;
+	
+}
+.rightSide{
+	float:left;
+	margin-top:40px;
+	margin-right:10%;
+}
+.endGameBox{
+	width:470px;
+	height:100px;
+	background-color:yellow;
+}
+.goalBox{
+	width:470px;
+	height:100px;
+	background:white;
+}
+.scoreBox{
+	width:470px;
+	height:100px;
+	background:red;
+	clear:both;
+}
+
+.crystalManagement{
+	width:100px;
+	height:100px;
+	background:violet;
+	border:5px solid purple;
+	float:left;
+	margin-right:10px;
+}
+.crystalFix{
+	position:absolute;
+}
+
+
+
+
+
+
+footer{
+	clear:both;
+	width:100%;
+	height:75px;
+	background:black;
+	color:white;
+	position:absolute;
+	bottom:0px;
+
+}
+footer p{
+	text-align:center;
+	font-family: arial;
+	padding-top:15px;
+}
+footer p a{
+	color:white;
+	text-decoration: none
+}
+footer p a:hover{
+	color:green;
+}
