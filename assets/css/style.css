@@ -29,7 +29,7 @@ html, body{
 #content{
 	height:511px;
 	width:780px;
-	background-color: green;
+	background-color: white;
 	margin: 0 auto 0 auto;
 	position:relative;
 	
@@ -94,17 +94,67 @@ h2{
 	width:470px;
 	height:100px;
 	background-color:#38B1B3;
+	border-radius:0px 10px 0px 0px;
 }
+.endGameContent{
+	width:90%;
+	height:70%;
+	background-color:white;
+	border-radius:10px;
+	margin:0 auto 0 auto;
+	position: relative;
+	top:10px;
+	text-align:center;
+}
+.endGameContent p{
+	font-family:arial;
+	font-size:15pt;
+	border-bottom:1px solid #33b3b4;
+}
+.recordHolder{
+	margin-left:125px;
+	margin-top:10px;
+
+}
+
+h4{
+	font-family:arial;
+	float:left;
+	font-size:15pt;
+	text-align:center;
+	padding-right: 20px;
+
+
+}
+
+.endGameBoxFix{
+	width:100%;
+	height:1px;
+	clear:both;
+}
+
 .goalBox{
 	width:470px;
 	height:100px;
-	background:white;
+	background:#33b3b4;
+	text-align:center;
+	color:white;
+	text-shadow: 1px 2px #692654;
+	font-family:arial;
+	font-size:14pt;
 }
+#randomNumber{
+	font-size:30pt;
+	padding-top:10px;
+}
+
 .scoreBox{
 	width:470px;
 	height:100px;
-	background:red;
+	background:#692654;
+	border-radius: 0px 0px 10px 0px;
 	clear:both;
+	text-align: center;
 }
 
 .crystalManagement{
@@ -119,10 +169,12 @@ h2{
 	position:absolute;
 }
 
-
-
-
-
+h5{
+	font-family:arial;
+	font-size:30pt;
+	padding-top:10px;
+	color:white;
+}
 
 footer{
 	clear:both;
