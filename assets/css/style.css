@@ -18,7 +18,7 @@ html, body{
 	-webkit-box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
 	-moz-box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
 	box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
-	overflow-y: hidden;
+
 }
 #contentBorder{
 	background:white;
