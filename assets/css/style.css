@@ -28,9 +28,10 @@ html, body{
 }
 #content{
 	height:auto;
-	height:auto;
+	width:auto;
 	background-color: green;
 	margin: 0 auto 0 auto;
+	padding-left:20px;
 }
 header{
 	width:100%;
@@ -47,7 +48,7 @@ h1{
 	line-height: 75px;
 }
 .descriptorBox{
-	width:400px;
+	width:300px;
 	height:410px;
 	background-color:blue;
 	float:left;
